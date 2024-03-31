@@ -17,6 +17,7 @@
 
 .card {
   background-color: #fff;
+  position: relative;
   width: 350px;
   height: 265px;
   border-radius: 12px;
@@ -28,12 +29,22 @@
 }
 
 .card:hover {
-  height: 425px;
+  height: 310px;
+  overflow: visible;
+  padding-top: 100px;
 }
 
 .img-container {
   display: flex;
   align-items: center;
+  transition: top 0.25s ease-in-out;
+}
+
+.card:hover .img-container {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: -100px;
 }
 
 .img-container img {
