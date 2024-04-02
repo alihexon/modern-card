@@ -28,16 +28,13 @@
   padding: 20px;
   text-align: center;
   overflow: hidden;
-  transition: height 0.5s, padding 1s;
+  transition: height 0.2s, padding 0.4s;
   padding-top: 220px;
 }
 
 .card:hover {
   height: 330px;
   padding-top: 120px;
-}
-
-.overflow-visible {
   overflow: visible;
 }
 
@@ -69,6 +66,15 @@
 .card h1 {
   font-size: 26px;
   margin: 7px 0;
+}
+
+.description {
+  transform: scale(0);
+  transition: transform 0.3s;
+}
+
+.card:hover .description {
+  transform: scale(1);
 }
 
 .read-btn {
