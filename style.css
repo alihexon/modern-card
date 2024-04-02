@@ -28,7 +28,7 @@
   padding: 20px;
   text-align: center;
   overflow: hidden;
-  transition: height 0.2s, padding 0.4s, margin 0.5s;
+  transition: height 0.35s, padding 0.5s, margin 0.5s;
   padding-top: 220px;
 }
 
