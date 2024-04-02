@@ -32,6 +32,10 @@
   padding-top: 220px;
 }
 
+.slide {
+  margin-top: 120px;
+}
+
 .card:hover {
   height: 330px;
   padding-top: 120px;
