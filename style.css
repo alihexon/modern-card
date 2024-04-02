@@ -10,7 +10,7 @@
 .container {
   background-color: #e1e1e1;
   min-height: 100vh;
-  padding: 120px 0;
+  padding: 105px 0;
   display: flex;  
   gap: 120px 20px;
   justify-content: center;
