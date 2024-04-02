@@ -10,6 +10,7 @@
 .container {
   background-color: #e1e1e1;
   min-height: 100vh;
+  padding: 100px 0;
   display: flex;  
   gap: 30px 20px;
   justify-content: center;
@@ -27,14 +28,17 @@
   padding: 20px;
   text-align: center;
   overflow: hidden;
-  transition: height 0.5s, 1s;
+  transition: height 0.5s, padding 1s;
   padding-top: 220px;
 }
 
 .card:hover {
   height: 330px;
-  overflow: visible;
   padding-top: 120px;
+}
+
+.overflow-visible {
+  overflow: visible;
 }
 
 .img-container {
@@ -65,10 +69,6 @@
 .card h1 {
   font-size: 26px;
   margin: 7px 0;
-}
-
-.description {
-  overflow: hidden;
 }
 
 .read-btn {
